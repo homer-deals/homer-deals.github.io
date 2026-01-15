@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>HOMER DEALS | Gaming Consoles & Digital Games</title>
+
+  <meta name="description"
+    content="Homer Deals – Buy PlayStation & Xbox consoles, digital games, and accessories in Zimbabwe. Pay via PayNow, EcoCash, or Omari." />
+
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: #0f172a;
+      color: #e5e7eb;
+    }
+
+    section {
+      scroll-margin-top: 100px;
+    }
+
+    .section {
+      padding: 50px 20px;
+      text-align: center;
+    }
+
+    .section-title {
+      font-size: 2rem;
+      margin-bottom: 30px;
+    }
+
+    header {
+      background: #020617;
+      padding: 20px;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .logo {
+      font-family: 'Orbitron', sans-serif;
+      font-size: 2.5rem;
+      background: linear-gradient(90deg, #3b82f6, #22d3ee);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      text-shadow: 0 0 20px rgba(59, 130, 246, 0.6);
+    }
+
+    nav a {
+      color: #e5e7eb;
+      margin-left: 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      color: #22c55e;
+    }
+
+    .hero {
+      height: 70vh;
+      background: linear-gradient(rgba(2,6,23,0.7), rgba(2,6,23,0.7)),
+        url("https://images.unsplash.com/photo-1606813907291-d86efa9b94db?auto=format&fit=crop&w=1600&q=80")
+        center / cover;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+
+    .hero h1 {
+      font-size: 3rem;
+    }
+
+    .grid {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    .card {
+      background: #020617;
+      border-radius: 12px;
+      padding: 20px;
+      width: 280px;
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-6px);
+      box-shadow: 0 0 25px rgba(34,197,94,0.35);
+    }
+
+    .playstation { border-top: 4px solid #006FCD; }
+    .xbox { border-top: 4px solid #107C10; }
+
+    .price {
+      display: block;
+      margin: 10px 0;
+      font-size: 1.3rem;
+      font-weight: bold;
+      color: #22c55e;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 10px 15px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+      margin-top: 10px;
+    }
+
+    .btn.playstation { background: #006FCD; color: #fff; }
+    .btn.xbox { background: #107C10; color: #fff; }
+
+    .btn:hover { opacity: 0.9; }
+
+    .whatsapp-btn {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background: #25D366;
+      color: #fff;
+      padding: 15px;
+      border-radius: 50%;
+      font-size: 22px;
+      text-decoration: none;
+      box-shadow: 0 0 20px rgba(0,0,0,0.4);
+      z-index: 999;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <div class="logo">HOMER DEALS</div>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#products">Products</a>
+    <a href="#games">Digital Games</a>
+    <a href="#payments">Payments</a>
+  </nav>
+</header>
+
+<section id="home" class="hero">
+  <h1>Gaming Consoles & Accessories</h1>
+</section>
+
+<section id="products" class="section">
+  <h2 class="section-title">Consoles & Accessories</h2>
+  <div class="grid">
+    <div class="card playstation">
+      <h3>PlayStation 5</h3>
+      <p>Ultra-fast SSD & next-gen gaming.</p>
+      <span class="price">$499 USD</span>
+      <a href="https://wa.me/263773857583" class="btn playstation">Order</a>
+    </div>
+
+    <div class="card xbox">
+      <h3>Xbox Series X</h3>
+      <p>True 4K performance.</p>
+      <span class="price">$499 USD</span>
+      <a href="https://wa.me/263773857583" class="btn xbox">Order</a>
+    </div>
+  </div>
+</section>
+
+<section id="games" class="section">
+  <h2 class="section-title">Digital Games</h2>
+  <div class="grid">
+    <div class="card playstation">
+      <h3>PlayStation Digital Games</h3>
+      <p>PS4 & PS5 games installed remotely.</p>
+      <span class="price">From $10 USD</span>
+      <a href="https://wa.me/263773857583" class="btn playstation">Order</a>
+    </div>
+
+    <div class="card xbox">
+      <h3>Xbox Digital Games</h3>
+      <p>Series X|S & Xbox One.</p>
+      <span class="price">From $10 USD</span>
+      <a href="https://wa.me/263773857583" class="btn xbox">Order</a>
+    </div>
+  </div>
+</section>
+
+<section id="payments" class="section">
+  <h2 class="section-title">Payment Methods</h2>
+  <div class="grid">
+    <div class="card"><h3>PayNow</h3><p>EcoCash, OneMoney, Bank</p></div>
+    <div class="card"><h3>EcoCash</h3><p>Fast mobile payments</p></div>
+    <div class="card"><h3>Omari</h3><p>Instant transfers</p></div>
+  </div>
+  <p style="margin-top:20px;color:#9ca3af;">
+    Payment instructions are sent via WhatsApp after ordering.
+  </p>
+</section>
+
+<a href="https://wa.me/263773857583" class="whatsapp-btn" aria-label="Chat on WhatsApp">📱</a>
+
+</body>
+</html>
